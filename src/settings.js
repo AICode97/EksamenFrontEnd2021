@@ -1,6 +1,6 @@
 function URL() {
   return {
-    server: "http://localhost:8080/jpareststarter",
+    server: "https://greatslav.me/Eksamen",
     
   };
 }

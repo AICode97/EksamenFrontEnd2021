@@ -4,7 +4,7 @@ import React, { useEffect, useState } from "react";
 export default function MyDogs({activeUser}) {
   const [breed, setbreed] = useState("")
     function fetchBreed() {
-        fetch("http://localhost:8080/jpareststarter/api/dog/mydog/"+ activeUser)
+        fetch("https://greatslav.me/Eksamen/api/dog/mydog/"+ activeUser)
             .then(res => res.json())
             .then(data => {
                 setbreed(data)

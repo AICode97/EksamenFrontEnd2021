@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 export default function Statistics({facade}) {
     const [breed, setbreed] = useState("")
     function fetchBreed() {
-        fetch("http://localhost:8080/jpareststarter/api/searches/all")
+        fetch("https://greatslav.me/Eksamen/api/searches/all")
             .then(res => res.json())
             .then(data => {
                 setbreed(data)

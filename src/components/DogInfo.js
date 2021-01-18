@@ -17,7 +17,7 @@ export default function DogInfo() {
     e.preventDefault();
   }
   const search = (e) => {
-    const url = "http://localhost:8080/jpareststarter/api/dog/" + query;
+    const url = "https://greatslav.me/Eksamen/api/dog/" + query;
     console.log(query)
     
 
